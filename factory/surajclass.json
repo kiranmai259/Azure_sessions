@@ -1,0 +1,9 @@
+{
+	"name": "surajclass",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9d01a0e7-6c66-4624-ba7e-b3d062ef41e4",
+		"tenantId": "f8b80851-b657-4b49-9fe8-8f1c22068ac5"
+	}
+}
