@@ -11,5 +11,6 @@
 		"typeProperties": {
 			"table": "grocery_duplicate"
 		}
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
 }

@@ -12,5 +12,6 @@
 			"schema": "sample",
 			"table": "duplicatetable"
 		}
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
 }
