@@ -280,7 +280,7 @@
 						"aggregate1 split(total_count>1,",
 						"     disjoint: false) ~> split1@(duplicate, distinct)",
 						"split1@duplicate sink(allowSchemaDrift: true,",
-						"     validateSchema: false,",
+						"     validateSchema: true,",
 						"     deletable:false,",
 						"     insertable:true,",
 						"     updateable:false,",
