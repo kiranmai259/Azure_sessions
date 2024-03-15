@@ -11,6 +11,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'Assignmentkiran'"
 		},
+		"AzureSqlDatabase1_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureSqlDatabase1'"
+		},
 		"Duplicate_records_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'Duplicate_records'"
@@ -22,6 +26,10 @@
 		"SqlServer1_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'SqlServer1'"
+		},
+		"grocery_data_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'grocery_data'"
 		},
 		"containerUri": {
 			"type": "string",
@@ -53,6 +61,9 @@
 					"Assignmentkiran_connectionString": {
 						"value": "[parameters('Assignmentkiran_connectionString')]"
 					},
+					"AzureSqlDatabase1_connectionString": {
+						"value": "[parameters('AzureSqlDatabase1_connectionString')]"
+					},
 					"Duplicate_records_connectionString": {
 						"value": "[parameters('Duplicate_records_connectionString')]"
 					},
@@ -61,6 +72,9 @@
 					},
 					"SqlServer1_connectionString": {
 						"value": "[parameters('SqlServer1_connectionString')]"
+					},
+					"grocery_data_connectionString": {
+						"value": "[parameters('grocery_data_connectionString')]"
 					}
 				}
 			},
