@@ -1,0 +1,9 @@
+{
+	"name": "Superstorekiran",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4e393f99-cd7f-414c-854a-e24d2757294b",
+		"tenantId": "f8b80851-b657-4b49-9fe8-8f1c22068ac5"
+	}
+}
